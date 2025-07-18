@@ -6,3 +6,6 @@ target: browser
 
 browser: browser.cpp
 	$(CXX) $(CXXFLAGS) -o browser browser.cpp $(LDFLAGS)
+
+clean:
+	rm browser
