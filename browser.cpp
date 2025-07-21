@@ -160,7 +160,7 @@ int read_response(int fd, SSL *ssl, char *buf, Response &response, std::string s
 
 int main(int argc, const char *argv[]) {
   if (argc < 2) {
-    printf("Usage: ./browser [url]");
+    printf("Usage: ./browser [url]\n");
     return -1;
   }
 
